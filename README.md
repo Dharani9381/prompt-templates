@@ -70,3 +70,36 @@ Prompt-Templates/
 
 Rodda Dharani
 
+
+LESSON 2: CLOSED-ENDED PROMPTS:
+AIM: To Know & Implement What Is A Closed Ended Prompt
+Theory: A closed-ended prompt is a type of prompt designed to elicit a specific, limited, and usually 
+factual response from an AI model. It restricts the range of possible answers by asking for predefined 
+information such as "yes/no," multiple-choice, true/false, numerical values, or short factual 
+statements. Closed-ended prompts are commonly used when precision, consistency, and quick 
+decision-making are required. They minimize ambiguity and reduce the likelihood of generating 
+lengthy or creative responses. This prompting technique is highly effective for information retrieval, 
+classification, validation, and structured data collection tasks.
+Applications Of Closed Ended Prompts:
+• Used in multiple-choice question answering systems to obtain a specific correct option. 
+• Used in chatbots for customer support to gather predefined user information efficiently. 
+• Used in survey and questionnaire systems for collecting structured responses. 
+• Used in data labeling and annotation tasks for classification and categorization. 
+• Used in medical screening applications to collect symptom-related yes/no responses. 
+• Used in educational assessments and online examinations for objective evaluation. 
+• Used in fact-checking systems to verify specific information accurately. 
+• Used in database querying applications where precise information retrieval is required. 
+• Used in decision-support systems to obtain clear and actionable responses. 
+• Used in workflow automation and form processing systems to validate user inputs 
+consistently. 
+Algorithm:
+1. Import the required LangChain modules for model initialization and prompt creation. 
+2. Store the Groq API key in a variable for authentication. 
+3. Initialize the Groq Llama-3.3-70B model using the init_chat_model() function. 
+4. Create a PromptTemplate that restricts the model output to either "right" or "wrong". 
+5. Define the input fact that needs to be validated by the model. 
+6. Format the prompt template by inserting the fact into the prompt. 
+7. Send the formatted prompt to the language model using the invoke() method. 
+8. Retrieve and display the model's response content. 
+9. Compare the response with the expected closed-ended outputs "right" and "wrong". 
+10. Print whether the given prompt is a closed-ended prompt based on the response format.
