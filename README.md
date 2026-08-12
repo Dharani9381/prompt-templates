@@ -65,13 +65,8 @@ Prompt-Templates/
 - Include domain-specific prompt templates.
 - Add evaluation examples and benchmarking.
 - Expand the collection of real-world prompts.
+📖 LESSON 2: CLOSED-ENDED PROMPTS:
 
-👩‍💻 Author
-
-Rodda Dharani
-
-
-LESSON 2: CLOSED-ENDED PROMPTS:
 AIM: To Know & Implement What Is A Closed Ended Prompt
 Theory: A closed-ended prompt is a type of prompt designed to elicit a specific, limited, and usually 
 factual response from an AI model. It restricts the range of possible answers by asking for predefined 
@@ -102,4 +97,7 @@ Algorithm:
 7. Send the formatted prompt to the language model using the invoke() method. 
 8. Retrieve and display the model's response content. 
 9. Compare the response with the expected closed-ended outputs "right" and "wrong". 
-10. Print whether the given prompt is a closed-ended prompt based on the response format.
+10. Print whether the given prompt is a closed-ended prompt based on the response formate
+    
+12. 👩‍💻 Author
+Rodda Dharani
